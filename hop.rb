@@ -13,4 +13,15 @@ class Hop < Formula
 
     generate_completions_from_executable(bin/"hop", "completions")
   end
+
+  def caveats
+    <<~EOS
+                   \\
+              ,-~~~-\\_
+             (        .\    Hop CLI is now installed
+      \    / @\___(__--'    Start off by using: hop auth login
+       \  /
+       hop!
+    EOS
+  end
 end
