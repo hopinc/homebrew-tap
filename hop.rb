@@ -2,7 +2,7 @@ class Hop < Formula
   desc "Interact with Hop in your terminal"
   homepage "https://hop.io"
   url "https://github.com/hopinc/cli/archive/v0.2.50.tar.gz"
-  sha256 "c44c90085147c3b5cfb71b1922fb4bbbacec9342e76a140c823b2754acb8d771"
+  sha256 "2924e0d5142c5071231f86bc100b2dc7ef832949967e0df3f4464c2fed397604"
   license "MPL-2.0"
   head "https://github.com/hopinc/cli.git", branch: "main"
 
